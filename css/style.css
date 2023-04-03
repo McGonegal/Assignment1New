@@ -62,7 +62,7 @@ aside ul li {
   background-color: #d6f1e4;
 }
 
-.about h2 {
+.aboutH2 {
   font-family: "Offside", cursive;
   font-size: 2.1rem;
   color: #116500;
@@ -90,6 +90,29 @@ aside ul li {
   height: 25%;
   width: 25%;
   float: left;
+  margin-right: 3rem;
+}
+
+.aboutOurParkH2 {
+  font-family: "Offside", cursive;
+  font-size: 2.1rem;
+  color: #116500;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
+.aboutOurPark p {
+  font-family: "Barlow", sans-serif;
+  color: #2C2D2C;
+  font-size: 1rem;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  padding-bottom: 1.3rem;
+}
+
+.aboutButton {
+  background-color: #116500;
+  color: #ffffff;
 }
 
 * {
@@ -124,4 +147,13 @@ li a:focus {
 img {
   height: 100%;
   width: 100%;
+}
+
+button {
+  font-family: "Offside", cursive;
+  font-size: 1rem;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
 }/*# sourceMappingURL=style.css.map */

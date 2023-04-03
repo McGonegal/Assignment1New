@@ -13,7 +13,7 @@
     background-color: $duckBlue;
 }
 
-.about h2 {
+.aboutH2 {
     font-family: 'Offside', cursive;
     font-size: 2.1rem;
     color: $deepGreen;
@@ -42,4 +42,27 @@
     height: 25%;
     width: 25%;
     float: left;
+    margin-right: 3rem;
+}
+
+.aboutOurParkH2 {
+    font-family: 'Offside', cursive;
+    font-size: 2.1rem;
+    color: $deepGreen;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.aboutOurPark p {
+    font-family: 'Barlow', sans-serif;
+    color: $charcoal;
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    padding-bottom: 1.3rem;
+}
+
+.aboutButton {
+    background-color: $deepGreen;
+    color: $white;
 }
