@@ -1,5 +1,6 @@
 @use './variables' as *;
 @use './header';
+@use './about';
 
 // Fonts
 
@@ -40,4 +41,9 @@ a {
 li a:hover,
 li a:focus {
     color: hsla(0, 0%, 100%, 0.70)
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
