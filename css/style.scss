@@ -32,7 +32,12 @@ a {
 }
 
 .wrapper {
-        max-width: 1200px;
+        max-width: 1400px;
         width: 90%;
         margin: 0 auto;
+}
+
+li a:hover,
+li a:focus {
+    color: hsla(0, 0%, 100%, 0.70)
 }

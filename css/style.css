@@ -8,6 +8,15 @@ header {
   background-size: cover;
 }
 
+h1 {
+  font-family: "Barlow", sans-serif;
+  color: #ffffff;
+  font-size: 3.44rem;
+  line-height: 63.7px;
+  letter-spacing: 0.8px;
+  padding-top: 2rem;
+}
+
 header p {
   color: #ffffff;
   font-family: "Offside", cursive;
@@ -33,6 +42,19 @@ li a {
   line-height: 29px;
 }
 
+.iconFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+aside ul li {
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+  position: relative;
+  top: -200px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +74,12 @@ a {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   width: 90%;
   margin: 0 auto;
+}
+
+li a:hover,
+li a:focus {
+  color: hsla(0, 0%, 100%, 0.7);
 }/*# sourceMappingURL=style.css.map */
