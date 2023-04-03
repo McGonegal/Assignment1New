@@ -1,0 +1,7 @@
+@use './variables' as *;
+
+header {
+    background-image: url(../assets/header-image.png);
+    height: 100vh;
+    background-size: cover;
+}
