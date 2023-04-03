@@ -1,9 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
 header {
   background-image: url(../assets/header-image.png);
   height: 100vh;
   background-size: cover;
+}
+
+header p {
+  color: #ffffff;
+  font-family: "Offside", cursive;
+  display: inline-block;
+}
+
+.navFlex {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 2rem;
+}
+
+li a {
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 2px #000;
+  line-height: 29px;
 }
 
 * {
@@ -14,4 +41,18 @@ header {
 
 html {
   font-size: 125%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

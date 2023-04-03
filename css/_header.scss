@@ -1,7 +1,44 @@
 @use './variables' as *;
 
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+// font-family: 'Barlow', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+//font-family: 'Offside', cursive;
+
+
 header {
     background-image: url(../assets/header-image.png);
     height: 100vh;
     background-size: cover;
+}
+
+header p {
+    color: $white;
+    font-family: 'Offside', cursive;
+    display: inline-block
+    
+}
+
+.navFlex {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 2rem;
+    
+}
+
+
+li a{
+    color: $white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 2px #000;
+    line-height: 29px;
 }
