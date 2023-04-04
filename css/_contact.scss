@@ -1,0 +1,48 @@
+@use './variables' as *;
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+// font-family: 'Barlow', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+//font-family: 'Offside', cursive;
+
+.contactUs {
+    height: 50vh;
+    background-color: $pine;
+}
+
+.contactH2 {
+    font-family: 'Offside', cursive;
+    font-size: 2.1rem;
+    color: $white;
+}
+
+.contactLabel {
+    display: block;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1 rem;
+    color: $white;
+}
+
+.contactInput{
+    line-height: 2rem;
+    width: 30%;
+    border: 0;
+}
+
+.contactButton {
+    height: 2.3rem;
+    background-color: $charcoal;
+    color: $white;
+    text-transform: uppercase;
+    font-family: 'Offside', cursive;
+    font-size: 1rem;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.contactInput::placeholder {
+    font-size: 1rem;
+}

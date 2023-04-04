@@ -8,6 +8,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
 header {
   height: 100vh;
   background-image: url(../assets/header-image.png);
@@ -226,6 +228,49 @@ aside ul li {
   color: #116500;
   font-size: 2rem;
   padding-top: 2rem;
+}
+
+.contactUs {
+  height: 50vh;
+  background-color: #213C28;
+}
+
+.contactH2 {
+  font-family: "Offside", cursive;
+  font-size: 2.1rem;
+  color: #ffffff;
+}
+
+.contactLabel {
+  display: block;
+  font-family: "Barlow", sans-serif;
+  font-size: 1 rem;
+  color: #ffffff;
+}
+
+.contactInput {
+  line-height: 2rem;
+  width: 30%;
+  border: 0;
+}
+
+.contactButton {
+  height: 2.3rem;
+  background-color: #2C2D2C;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Offside", cursive;
+  font-size: 1rem;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.contactInput::-moz-placeholder {
+  font-size: 1rem;
+}
+
+.contactInput::placeholder {
+  font-size: 1rem;
 }
 
 * {
