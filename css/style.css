@@ -122,12 +122,12 @@ aside ul li {
   background-color: #213C28;
 }
 
-.blog h2 {
+.blogTop h2 {
   font-family: "Offside", cursive;
   font-size: 2.1rem;
   color: #ffffff;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 5rem;
   padding-bottom: 2rem;
   font-weight: 200;
 }
@@ -153,9 +153,42 @@ aside ul li {
   padding-bottom: 2rem;
 }
 
-.blogButton {
+.blogButtonTop {
   color: #116500;
   margin-left: 13.5rem;
+}
+
+.blogBottom {
+  height: 50%;
+}
+
+.blogBottom figure {
+  height: 100%;
+  width: 50%;
+  float: left;
+  margin-right: 4rem;
+}
+
+.blogBottom h2 {
+  font-family: "Offside", cursive;
+  font-size: 2.1rem;
+  color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.blogBottom p {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+}
+
+.blogButtonBottom {
+  color: #116500;
 }
 
 * {
