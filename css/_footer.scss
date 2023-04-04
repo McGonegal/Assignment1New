@@ -1,0 +1,20 @@
+@use './variables' as *;
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+// 
+
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+//font-family: 'Offside', cursive;
+
+footer {
+    background-color: $charcoal;
+}
+
+footer p {
+    color: $white;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    padding: .5rem 0;
+}
