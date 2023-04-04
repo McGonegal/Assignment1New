@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
 header {
   height: 100vh;
   background-image: url(../assets/header-image.png);
@@ -113,6 +115,47 @@ aside ul li {
 .aboutButton {
   background-color: #116500;
   color: #ffffff;
+}
+
+.blog {
+  height: 150vh;
+  background-color: #213C28;
+}
+
+.blog h2 {
+  font-family: "Offside", cursive;
+  font-size: 2.1rem;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 2rem;
+  font-weight: 200;
+}
+
+.blogTop {
+  height: 50%;
+}
+
+.blogTop figure {
+  height: 100%;
+  width: 50%;
+  float: right;
+  margin-left: 4rem;
+}
+
+.blogTop p {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  padding-left: 13.5rem;
+  padding-bottom: 2rem;
+}
+
+.blogButton {
+  color: #116500;
+  margin-left: 13.5rem;
 }
 
 * {
