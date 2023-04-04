@@ -239,18 +239,20 @@ aside ul li {
   font-family: "Offside", cursive;
   font-size: 2.1rem;
   color: #ffffff;
+  padding-bottom: 1rem;
 }
 
 .contactLabel {
   display: block;
   font-family: "Barlow", sans-serif;
-  font-size: 1 rem;
+  font-size: 1rem;
   color: #ffffff;
+  padding-bottom: 1rem;
 }
 
 .contactInput {
   line-height: 2rem;
-  width: 30%;
+  width: 50%;
   border: 0;
 }
 
@@ -271,6 +273,30 @@ aside ul li {
 
 .contactInput::placeholder {
   font-size: 1rem;
+}
+
+.contactUs p {
+  font-family: "Barlow", sans-serif;
+  color: white;
+  padding-bottom: 0.5rem;
+}
+
+.pageLinks li {
+  padding-bottom: 1rem;
+}
+
+.pageLinks a {
+  font-family: "Offside", cursive;
+  text-shadow: none;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.contactFlex {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 * {
