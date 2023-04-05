@@ -454,6 +454,13 @@ aside ul li {
   align-items: center;
 }
 
+@media (max-width: 480px) {
+  .contactFlex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 footer {
   background-color: #2C2D2C;
 }
