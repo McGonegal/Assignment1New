@@ -307,6 +307,31 @@ aside ul li {
     padding: 1rem 2rem;
     font-size: 1.5rem;
   }
+  .blogBottom figure {
+    height: 40%;
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+  .blogBottom h2 {
+    font-family: "Offside", cursive;
+    font-size: 2.1rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 200;
+    padding-bottom: 2rem;
+  }
+  .blogBottom p {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
 }
 .links {
   height: 50vh;
