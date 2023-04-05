@@ -9,7 +9,7 @@
 //font-family: 'Offside', cursive;
 
 .about {
-    height: 120vh;
+    min-height: 120vh;
     background-color: $duckBlue;
 }
 
@@ -26,12 +26,12 @@
     padding-top: 3rem;
     display: flex;
     justify-content: space-between;
-
 }
 
 .aboutImageGallery li {
     height: 30%;
     width: 30%;
+    padding-bottom: 2rem;
 }
 
 .aboutOurPark {
@@ -65,4 +65,44 @@
 .aboutButton {
     background-color: $deepGreen;
     color: $white;
+}
+
+// MEDIA QUERY
+
+@media (max-width: 481px) {
+    .aboutImageGallery {
+        width: 100%;
+        padding-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .aboutImageGallery li {
+        height: 30%;
+        width: 48%;
+        
+    }
+    .aboutImageGallery .thirdImage {
+        width: 100%;
+    }
+    .aboutOurPark {
+        padding-top: 1rem;
+    }
+    .floatingImage {
+        display: none;
+    }
+
+    .aboutOurParkH2 {
+        text-align: center;
+    }
+
+    .buttonFlex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutButton {
+        padding: 1.2rem 2rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
 }
