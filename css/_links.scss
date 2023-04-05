@@ -43,3 +43,28 @@
     font-size: 2rem;
     padding-top: 2rem;
 }
+
+// MEDIA QUERY
+
+@media (max-width: 480px) {
+
+    .links {
+        height: 70vh
+    }
+
+    .linkFlex{
+        flex-direction: column;
+    }
+
+    .firstLink {
+        padding-left: 2.5rem;
+    }
+
+    .secondLink {
+        padding-left: 0rem;
+    }
+    
+    .thirdLink {
+        padding-left: 1.5rem;
+    }
+}
