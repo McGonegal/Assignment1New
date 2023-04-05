@@ -60,3 +60,13 @@ button {
     text-transform: uppercase;
     padding: 0.5rem 1rem;
 }
+
+// MEDIA QUERY 
+
+@media (max-width: 481px) {
+    .wrapper {
+        max-width: 450px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
