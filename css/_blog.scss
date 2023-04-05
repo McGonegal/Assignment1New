@@ -42,7 +42,6 @@
     color: $white;
     padding-left: 13.5rem;
     padding-bottom: 2rem;
-    
 }
 
 .blogButtonTop{
@@ -83,3 +82,77 @@
 .blogButtonBottom {
     color: $deepGreen;
 }
+
+// MEDIA QUERY
+
+@media (max-width: 480px) {
+    .blog {
+        height: 250vh;
+    }
+
+    .blogTop {
+        height: 40%;
+    }
+
+    .blogTop h2 {
+        font-family: 'Offside', cursive;
+        font-size: 2.1rem;
+        color: $white;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-weight: 200;
+    }
+
+    .blogTop figure {
+        height: 40%;
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+
+    .blogTop p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 1rem;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: $white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .blogBottom figure {
+        height: 40%;
+        width: 100%;
+        float: none;
+        padding-top: .5rem;
+        margin-right: 0;
+    }
+
+    .blogButtonTop{
+        color: $deepGreen;
+        margin-left: 0;
+    }
+
+    .blogButtonFlex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blogButtonTop{
+        color: $deepGreen;
+        margin-left: 0;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .blogButtonBottom {
+        color: $deepGreen;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+

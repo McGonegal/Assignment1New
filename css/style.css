@@ -249,6 +249,65 @@ aside ul li {
   color: #116500;
 }
 
+@media (max-width: 480px) {
+  .blog {
+    height: 250vh;
+  }
+  .blogTop {
+    height: 40%;
+  }
+  .blogTop h2 {
+    font-family: "Offside", cursive;
+    font-size: 2.1rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 200;
+  }
+  .blogTop figure {
+    height: 40%;
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  .blogTop p {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+  .blogBottom figure {
+    height: 40%;
+    width: 100%;
+    float: none;
+    padding-top: 0.5rem;
+    margin-right: 0;
+  }
+  .blogButtonTop {
+    color: #116500;
+    margin-left: 0;
+  }
+  .blogButtonFlex {
+    display: flex;
+    justify-content: center;
+  }
+  .blogButtonTop {
+    color: #116500;
+    margin-left: 0;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+  .blogButtonBottom {
+    color: #116500;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+}
 .links {
   height: 50vh;
   background-color: #d6f1e4;
